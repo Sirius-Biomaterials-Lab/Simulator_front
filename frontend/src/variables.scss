@@ -1,0 +1,32 @@
+$color-primary: var(--color-primary);
+$color-background: var(--color-bg);
+$color-accent: var(--color-accent);
+$color-text: var(--color-text);
+$color-icons: var(--color-icons);
+$color-icons-alt: var(--color-icons-alt);
+$color-secondary: var(--color-secondary);
+$color-secondary-alt: var(--color-secondary-alt);
+
+$theme: var(--theme);
+
+$font-family-base: Helvetica, Arial, sans-serif;
+$font-size-base: 15px;
+$font-size-small: 10px;
+$font-size-large: 18px;
+
+$border-radius-small: 5px;
+$border-radius-medium: 10px;
+$border-radius-large: 25px;
+$border-radius-full: 50%;
+
+$transition-fast: 0.2s;
+$transition-medium: 0.3s;
+$transition-slow: 0.5s;
+
+$header-height: 60px;
+
+
+$breakpoint-mobile: 480px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
+$breakpoint-large-desktop: 1200px;
