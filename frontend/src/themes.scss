@@ -1,6 +1,7 @@
 :root {
   --theme: light;
   --color-primary: #4F86F7;
+  --color-primary-light: #4F86F7;
   --color-background: #FFFFFF;
   --color-accent: #53E88B;
   --color-text: #333333;
@@ -13,6 +14,7 @@
 [data-theme="dark"] {
   --theme: dark;
   --color-primary: #1F3B57;
+  --color-primary-light: #4F86F7;
   --color-background: #121212;
   --color-accent: #A3D977;
   --color-text: #E0E0E0;

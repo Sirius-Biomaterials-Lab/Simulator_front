@@ -1,0 +1,9 @@
+@use '../../variables';
+
+.WelcomePageHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: variables.$color-primary-light;
+}

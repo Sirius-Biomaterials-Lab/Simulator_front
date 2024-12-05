@@ -1,0 +1,57 @@
+@use '../../variables';
+
+.IsotropModelPage {
+  &Body{
+
+    width: 80%;
+    margin: 50px auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+  }
+  &Inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  &Buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
+.FitButton{
+  width: 135px;
+  height: 35px;
+  background-color: variables.$color-accent;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+
+.PredictButton{
+  width: 135px;
+  height: 35px;
+  background-color: variables.$color-primary;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+
+.ChartContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}

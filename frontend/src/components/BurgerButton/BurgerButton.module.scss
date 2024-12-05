@@ -1,0 +1,12 @@
+@use '../../variables';
+
+.BurgerButton {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: variables.$color-primary;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

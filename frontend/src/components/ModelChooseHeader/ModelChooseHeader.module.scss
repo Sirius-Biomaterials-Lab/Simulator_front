@@ -1,0 +1,23 @@
+@use '../../variables';
+
+.ModelChooseHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  &Item {
+    text-transform: uppercase;
+    color: variables.$color-primary;
+
+    &:hover {
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+}
+
+.active {
+  font-weight: bold;
+}
